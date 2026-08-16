@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURA FILMS | Shoot on iPhone • Cinematic Reels & Creative Edits</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Aura Films - Cinematic reels, creative edits, and direct mobile shoots. We shoot on iPhone, edit professionally, and deliver instantly. Book your custom slot today.">
+    <meta name="keywords" content="Aura Films, cinematic reels, video edits, shoot on iPhone, mobile cinematography, video editing, booking slots, direct payment">
+    <meta name="author" content="Aura Films">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="AURA FILMS | Shoot on iPhone • Cinematic Reels">
+    <meta property="og:description" content="We shoot, we edit, and deliver instantly. Premium mobile videography and custom reels.">
+    <meta property="og:image" content="assets/logo.jpg">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;600;800&family=Outfit:wght@300;400;500;700&family=Pinyon+Script&family=Bebas+Neue&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="loading">
+
+    <!-- Shutter Loader / Entry Animation -->
+    <div id="shutter-loader">
+        <div class="shutter-overlay shutter-top"></div>
+        <div class="shutter-overlay shutter-bottom"></div>
+        <div class="shutter-flash"></div>
+        <div class="shutter-content">
+            <div class="logo-anim-container">
+                <img src="assets/logo.jpg" alt="Aura Films Logo" class="preloader-logo-img">
+            </div>
+            <div class="loader-status">
+                <div class="loader-spinner"></div>
+                <span>Powering up lens...</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Glassmorphic Header -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <img src="assets/logo-rect-light.jpg" alt="Aura Films Wordmark" class="logo-text-img">
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#hero" class="nav-link active">Home</a>
+                <a href="#showcase" class="nav-link">Showcase</a>
+                <a href="#booking" class="nav-link">Book Slot</a>
+                <a href="#connect" class="nav-link">Connect</a>
+                <a href="#booking" class="btn btn-secondary nav-btn">Book Now</a>
+            </nav>
+
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-glow-1"></div>
+            <div class="hero-glow-2"></div>
+            <div class="container hero-container">
+                <div class="hero-left">
+                    <div class="badge fade-in">
+                        <i data-lucide="sparkles"></i>
+                        <span>Shoot on iPhone &bull; Delivered Instantly</span>
+                    </div>
+                    <h1 class="hero-title fade-in-delay-1">
+                        Cinematic Reels <br>
+                        <span class="gradient-text">& Creative Edits</span> 🎞️
+                    </h1>
+                    <p class="hero-description fade-in-delay-2">
+                        Professional cinematography, dynamic pacing, and stunning color grading—shot exclusively on iPhone and delivered instantly to your device. Elevate your visual presence.
+                    </p>
+                    <div class="hero-actions fade-in-delay-3">
+                        <a href="#booking" class="btn btn-primary">
+                            <i data-lucide="calendar"></i> Book Shoot Slot
+                        </a>
+                        <a href="#connect" class="btn btn-outline">
+                            <i data-lucide="phone"></i> Let's Connect
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-right fade-in">
+                    <div class="hero-marquee-wrapper">
+                        <!-- Left track scrolling up -->
+                        <div class="marquee-track track-up">
+                            <div class="marquee-item">
+                                <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=400&q=80" alt="Cinematic Shoot Setup">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=400&q=80" alt="Porsche 911 Cinematic">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=400&q=80" alt="Creative Portrait Edit">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=400&q=80" alt="Wedding Cinematic Teaser">
+                            </div>
+                            <!-- Duplicated items for seamless loop -->
+                            <div class="marquee-item">
+                                <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=400&q=80" alt="Cinematic Shoot Setup">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=400&q=80" alt="Porsche 911 Cinematic">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=400&q=80" alt="Creative Portrait Edit">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=400&q=80" alt="Wedding Cinematic Teaser">
+                            </div>
+                        </div>
+
+                        <!-- Right track scrolling down -->
+                        <div class="marquee-track track-down">
+                            <div class="marquee-item">
+                                <img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=400&q=80" alt="Cinema Camera rig">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=400&q=80" alt="Urban Streetwear style">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=400&q=80" alt="Vlog traveler in Canyon">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=400&q=80" alt="Directing movie frame">
+                            </div>
+                            <!-- Duplicated items for seamless loop -->
+                            <div class="marquee-item">
+                                <img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=400&q=80" alt="Cinema Camera rig">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=400&q=80" alt="Urban Streetwear style">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=400&q=80" alt="Vlog traveler in Canyon">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=400&q=80" alt="Directing movie frame">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Quick Values Banner -->
+            <div class="hero-strip">
+                <div class="container strip-container">
+                    <div class="strip-item">
+                        <i data-lucide="smartphone" class="accent"></i>
+                        <span>Shoot on iPhone</span>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="strip-item">
+                        <i data-lucide="film" class="accent"></i>
+                        <span>Cinematic Reels</span>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="strip-item">
+                        <i data-lucide="zap" class="accent"></i>
+                        <span>Delivered Instantly ⚡️</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Multi-Step Booking Section -->
+        <section id="booking" class="booking-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Reserve your <span class="accent">slot</span></h2>
+                    <p class="section-desc">Follow the steps to configure your cinematography coverage, check dates, and lock in your session instantly.</p>
+                </div>
+
+                <!-- 3-Step Progress Tracker -->
+                <div class="booking-steps-timeline">
+                    <div class="step-progress-line">
+                        <div class="step-progress-fill" id="step-progress-fill"></div>
+                    </div>
+                    <div class="step-node active" id="node-step1" data-step="1">
+                        <div class="node-circle">
+                            <span class="node-num">1</span>
+                            <i data-lucide="check" class="node-check-icon"></i>
+                        </div>
+                        <span class="node-label">Choose Type</span>
+                    </div>
+                    <div class="step-node" id="node-step2" data-step="2">
+                        <div class="node-circle">
+                            <span class="node-num">2</span>
+                            <i data-lucide="check" class="node-check-icon"></i>
+                        </div>
+                        <span class="node-label">Choose Package</span>
+                    </div>
+                    <div class="step-node" id="node-step3" data-step="3">
+                        <div class="node-circle">
+                            <span class="node-num">3</span>
+                            <i data-lucide="check" class="node-check-icon"></i>
+                        </div>
+                        <span class="node-label">Your Details</span>
+                    </div>
+                </div>
+
+                <!-- Wizard Panels container -->
+                <div class="booking-wizard-card">
+                    
+                    <!-- STEP 1: CHOOSE TYPE -->
+                    <div class="wizard-panel active" id="panel-step1">
+                        <div class="panel-header">
+                            <span class="panel-badge">Book a Reel-First Shoot</span>
+                            <h3>What are you <span class="accent">booking?</span></h3>
+                            <p class="panel-subtitle">We capture. You celebrate. We deliver memories.</p>
+                        </div>
+
+                        <div class="type-cards-grid">
+                            <!-- Wedding Card -->
+                            <div class="type-card" data-type="wedding">
+                                <div class="type-icon-wrapper">
+                                    <i data-lucide="heart"></i>
+                                </div>
+                                <div class="type-details">
+                                    <h4>Wedding</h4>
+                                    <p>Haldi, Mehendi, Wedding day or Reception</p>
+                                </div>
+                                <div class="type-arrow"><i data-lucide="chevron-right"></i></div>
+                            </div>
+
+                            <!-- Event Card -->
+                            <div class="type-card" data-type="event">
+                                <div class="type-icon-wrapper">
+                                    <i data-lucide="calendar"></i>
+                                </div>
+                                <div class="type-details">
+                                    <h4>Event</h4>
+                                    <p>Birthday, Engagement, Party or Single Event</p>
+                                </div>
+                                <div class="type-arrow"><i data-lucide="chevron-right"></i></div>
+                            </div>
+
+                            <!-- Brand / Business Card -->
+                            <div class="type-card" data-type="brand">
+                                <div class="type-icon-wrapper">
+                                    <i data-lucide="briefcase"></i>
+                                </div>
+                                <div class="type-details">
+                                    <h4>Brand / Business</h4>
+                                    <p>Business, Product, Launch or Social Content</p>
+                                </div>
+                                <div class="type-arrow"><i data-lucide="chevron-right"></i></div>
+                            </div>
+
+                            <!-- Guidance / Help me choose -->
+                            <div class="type-card" data-type="guidance">
+                                <div class="type-icon-wrapper">
+                                    <i data-lucide="help-circle"></i>
+                                </div>
+                                <div class="type-details">
+                                    <h4>Not Sure?</h4>
+                                    <p>Tell us your event and we'll suggest the best plan</p>
+                                </div>
+                                <div class="type-arrow"><i data-lucide="chevron-right"></i></div>
+                            </div>
+                        </div>
+
+                        <!-- Step 1 Trust Banner -->
+                        <div class="wizard-stats-banner">
+                            <div class="stat-item">
+                                <i data-lucide="clapperboard"></i>
+                                <div class="stat-details">
+                                    <span class="stat-num">400+</span>
+                                    <span class="stat-lbl">Reels Delivered</span>
+                                </div>
+                            </div>
+                            <div class="stat-item">
+                                <i data-lucide="star" class="fill-gold"></i>
+                                <div class="stat-details">
+                                    <span class="stat-num">4.9 ★</span>
+                                    <span class="stat-lbl">Average Rating</span>
+                                </div>
+                            </div>
+                            <div class="stat-item">
+                                <i data-lucide="zap"></i>
+                                <div class="stat-details">
+                                    <span class="stat-num">Fast</span>
+                                    <span class="stat-lbl">WhatsApp Response</span>
+                                </div>
+                            </div>
+                            <div class="stat-item">
+                                <i data-lucide="shield-check"></i>
+                                <div class="stat-details">
+                                    <span class="stat-num">Private</span>
+                                    <span class="stat-lbl">Booking Details</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- STEP 2: CHOOSE PACKAGE -->
+                    <div class="wizard-panel" id="panel-step2">
+                        <div class="panel-header">
+                            <span class="panel-badge" id="package-panel-tag">Wedding Coverage</span>
+                            <h3 id="package-panel-title">Choose your package</h3>
+                            <p class="panel-subtitle" id="package-panel-subtitle">Choose coverage. We will confirm details on call.</p>
+                        </div>
+
+                        <!-- Dynamic Packages Grid -->
+                        <div class="packages-list-container" id="packages-list-container">
+                            <!-- Populated dynamically via JS script -->
+                        </div>
+
+                        <!-- Step 2 Footer Disclaimer Banner -->
+                        <div class="wizard-package-footer">
+                            <div class="disclaimer-left">
+                                <i data-lucide="file-text"></i>
+                                <div class="disclaimer-text-wrapper">
+                                    <span class="disclaimer-title">No Raw Data</span>
+                                    <span class="disclaimer-text">We do not provide original/raw footage. Only final edited reels will be delivered.</span>
+                                </div>
+                            </div>
+                            <div class="disclaimer-divider"></div>
+                            <div class="disclaimer-right">
+                                <i data-lucide="shield-check"></i>
+                                <div class="disclaimer-text-wrapper">
+                                    <span class="disclaimer-title">Why Aura Films?</span>
+                                    <ul class="why-list">
+                                        <li><i data-lucide="check"></i> Shot on iPhone Pro Series</li>
+                                        <li><i data-lucide="check"></i> Cinematic Editing</li>
+                                        <li><i data-lucide="check"></i> On-time Delivery</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Nav Buttons -->
+                        <div class="wizard-actions">
+                            <button type="button" class="btn btn-outline back-step-btn" id="back-to-step1">
+                                <i data-lucide="arrow-left"></i> Back
+                            </button>
+                            <button type="button" class="btn btn-primary next-step-btn" id="proceed-to-step3" disabled>
+                                Proceed <i data-lucide="arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- STEP 3: YOUR DETAILS -->
+                    <div class="wizard-panel" id="panel-step3">
+                        <div class="panel-header">
+                            <span class="panel-badge">Complete Reservation</span>
+                            <h3>Enter Your Details</h3>
+                            <p class="panel-subtitle">Select date, timing slot, and submit contact details.</p>
+                        </div>
+
+                        <form id="booking-form" class="booking-form-wizard">
+                            <div class="booking-split-grid">
+                                
+                                <!-- Left Form: Date & Slots -->
+                                <div class="details-left">
+                                    <div class="calendar-input-group" style="margin-bottom:1.5rem;">
+                                        <label for="booking-date" class="input-label">Choose Shoot Date</label>
+                                        <div class="input-wrapper">
+                                            <i data-lucide="calendar" class="field-icon"></i>
+                                            <input type="date" id="booking-date" class="form-input" min="">
+                                        </div>
+                                    </div>
+
+                                    <div class="slots-container" style="border:none; padding-top:0;">
+                                        <label for="booking-time" class="input-label" style="display:block; margin-bottom:0.5rem; font-family:var(--font-heading); font-size:0.8rem; font-weight:600; text-transform:uppercase; color:var(--text-secondary); letter-spacing:0.5px;">Choose Start Time</label>
+                                        <div class="input-wrapper">
+                                            <i data-lucide="clock" class="field-icon"></i>
+                                            <input type="time" id="booking-time" class="form-input" required>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Right Form: Input Fields -->
+                                <div class="details-right">
+                                    <div class="input-group">
+                                        <label for="client-name" class="input-label">Full Name</label>
+                                        <div class="input-wrapper">
+                                            <i data-lucide="user" class="field-icon"></i>
+                                            <input type="text" id="client-name" class="form-input" placeholder="Your Name" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="input-group">
+                                        <label for="client-phone" class="input-label">Phone Number</label>
+                                        <div class="input-wrapper">
+                                            <i data-lucide="phone" class="field-icon"></i>
+                                            <input type="tel" id="client-phone" class="form-input" placeholder="e.g. 7780523279" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="input-group">
+                                        <label for="client-email" class="input-label">Email Address</label>
+                                        <div class="input-wrapper">
+                                            <i data-lucide="mail" class="field-icon"></i>
+                                            <input type="email" id="client-email" class="form-input" placeholder="you@example.com" required>
+                                        </div>
+                                    </div>
+
+                                    <!-- Hidden select to link values to legacy JS code variables -->
+                                    <select id="service-package" style="display:none;" required>
+                                        <!-- Populated via script to match chosen package -->
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- Price Summary bar -->
+                            <div class="price-summary-wizard">
+                                <div class="summary-details">
+                                    <span class="selected-package-label">Selected:</span>
+                                    <span class="selected-package-name" id="summary-package-name">None Selected</span>
+                                </div>
+                                <div class="summary-cost">
+                                    <span>Total Price:</span>
+                                    <span class="price-amount" id="summary-price">₹0</span>
+                                </div>
+                            </div>
+
+                            <!-- Nav Actions -->
+                            <div class="wizard-actions" style="flex-wrap: wrap; gap: 1rem;">
+                                <button type="button" class="btn btn-outline back-step-btn" id="back-to-step2">
+                                    <i data-lucide="arrow-left"></i> Back
+                                </button>
+                                <div class="submit-buttons-group" style="display: flex; gap: 0.75rem; flex-grow: 1; flex-wrap: wrap;">
+                                    <button type="submit" id="confirm-booking-wa" class="btn" disabled style="background:#128c7e; color:#fff; border-color:#128c7e; flex: 1; min-width: 140px; justify-content: center; display: inline-flex; align-items: center; gap: 0.5rem;">
+                                        <i data-lucide="message-square"></i> WhatsApp
+                                    </button>
+                                    <button type="submit" id="confirm-booking-email" class="btn" disabled style="background:var(--accent); color:#000; border-color:var(--accent); flex: 1; min-width: 140px; justify-content: center; display: inline-flex; align-items: center; gap: 0.5rem;">
+                                        <i data-lucide="mail"></i> Email
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Workflow / Value Proposition Section -->
+        <section class="workflow-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="subtitle">How We Work</span>
+                    <h2 class="section-title">We Shoot. We Edit. <span class="accent">Delivered.</span></h2>
+                    <p class="section-desc">A premium, streamlined process tailored for quick turnarounds and high production value.</p>
+                </div>
+                
+                <div class="workflow-grid">
+                    <div class="workflow-card">
+                        <div class="card-icon-wrapper">
+                            <i data-lucide="video"></i>
+                        </div>
+                        <h3>We Shoot</h3>
+                        <p>Utilizing high-end iPhone Pro setups, precise stabilizers, pro-level lighting, and advanced techniques to capture stunning raw content.</p>
+                    </div>
+                    <div class="workflow-card">
+                        <div class="card-icon-wrapper">
+                            <i data-lucide="sliders"></i>
+                        </div>
+                        <h3>We Edit</h3>
+                        <p>Detailed post-production including professional color grading, trend-aligned sound design, seamless transitions, and perfect pacing.</p>
+                    </div>
+                    <div class="workflow-card">
+                        <div class="card-icon-wrapper">
+                            <i data-lucide="zap"></i>
+                        </div>
+                        <h3>Delivered Instantly</h3>
+                        <p>No waiting for weeks. Your reels, custom clips, and creative edits are color-graded and delivered instantly via a direct cloud folder link. ⚡️</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dynamic Showcase Section -->
+        <section id="showcase" class="showcase-section">
+            <div class="container">
+                <div class="section-header" style="text-align: center; margin-bottom: 3.5rem;">
+                    <span class="subtitle">Our Work</span>
+                    <h2 class="section-title" style="display: inline-flex; align-items: center; justify-content: center; gap: 1.25rem; flex-wrap: wrap; width: 100%;">
+                        <span>Portfolio <span class="accent">feed</span></span>
+                        <button type="button" id="join-team-btn" class="btn" style="border-radius: 30px; font-weight: 600; padding: 0.5rem 1.25rem; min-width: 130px; display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; text-transform: uppercase; font-size: 0.75rem; letter-spacing: 1px; cursor: pointer; background-color: #000000; color: #ffffff; border: 1px solid #000000; transition: var(--transition);">
+                            <i data-lucide="users" style="width: 14px; height: 14px;"></i> Join Team
+                        </button>
+                    </h2>
+                    <p class="section-desc">Explore the high-fidelity short films, cinematic reels, and creative edits produced by Aura Films.</p>
+                </div>
+
+                <!-- Showcase Filters -->
+                <div class="gallery-filters">
+                    <button class="filter-btn active" data-filter="all">All Work</button>
+                    <button class="filter-btn" data-filter="video">Cinematic Reels 🎞️</button>
+                    <button class="filter-btn" data-filter="picture">Creative Edits 📱</button>
+                </div>
+
+                <!-- Showcase Grid -->
+                <div class="gallery-grid" id="gallery-grid">
+                    <!-- Dynamic Items will be rendered here via JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Redirection & Contact Section -->
+        <section id="connect" class="connect-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="subtitle">Quick Connections</span>
+                    <h2 class="section-title">Let's <span class="accent">connect</span></h2>
+                    <p class="section-desc">Get in touch directly through WhatsApp, Instagram DM, or Email for immediate responses and quick bookings.</p>
+                </div>
+
+                <div class="connect-grid">
+                    <!-- WhatsApp Redirection -->
+                    <a href="#" id="whatsapp-link" class="connect-card wa-card" target="_blank">
+                        <div class="connect-bg"></div>
+                        <div class="connect-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor" style="width:22px; height:22px; display:block;">
+                                <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.7 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/>
+                            </svg>
+                        </div>
+                        <h3>WhatsApp Redirection</h3>
+                        <p class="accent-number">⚡️ Instant Chat</p>
+                        <p>Discuss concepts, check real-time availability, and coordinate deliveries directly on WhatsApp.</p>
+                        <span class="connect-action">Chat Now <i data-lucide="arrow-right"></i></span>
+                    </a>
+
+                    <!-- Instagram DM Redirection -->
+                    <a href="https://www.instagram.com/aurafilms__official?igsh=aXdxOWxoOThqajFl&igsi=aXdxOWxoOThqajFl" id="instagram-link" class="connect-card ig-card" target="_blank">
+                        <div class="connect-bg"></div>
+                        <div class="connect-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor" style="width:22px; height:22px; display:block;">
+                                <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
+                            </svg>
+                        </div>
+                        <h3>Instagram DM</h3>
+                        <p class="accent-number">🎞️ Creative Reels Feed</p>
+                        <p>Send a direct message, check our visual grid, share reel ideas, and interact with our stories.</p>
+                        <span class="connect-action">Send DM <i data-lucide="arrow-right"></i></span>
+                    </a>
+
+                    <!-- Email Redirection -->
+                    <a href="mailto:aurafilms.in@gmail.com" id="email-link" class="connect-card mail-card">
+                        <div class="connect-bg"></div>
+                        <div class="connect-icon"><i data-lucide="mail"></i></div>
+                        <h3>Direct Email</h3>
+                        <p class="accent-number">📩 Business Inquiries</p>
+                        <p>Request quotes for bulk shoots, professional edits, and send commercial project outlines.</p>
+                        <span class="connect-action">Send Mail <i data-lucide="arrow-right"></i></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Native Payment Gateway Modal (Self-contained) -->
+    <div id="payment-modal" class="modal-overlay">
+        <div class="payment-modal-card">
+            <button class="close-modal" id="close-payment-modal"><i data-lucide="x"></i></button>
+            
+            <div class="modal-header">
+                <h2>Secure Direct Checkout</h2>
+                <p>Transaction processed natively and directly to Aura Films.</p>
+            </div>
+
+            <!-- Booking Overview Brief -->
+            <div class="payment-overview">
+                <div class="overview-item">
+                    <span class="overview-label">Service Package:</span>
+                    <span class="overview-val" id="payment-package-name">-</span>
+                </div>
+                <div class="overview-item">
+                    <span class="overview-label">Reserved Slot:</span>
+                    <span class="overview-val" id="payment-slot-details">-</span>
+                </div>
+                <div class="overview-item total-item">
+                    <span class="overview-label">Payable Amount:</span>
+                    <span class="overview-val accent" id="payment-package-cost">₹0</span>
+                </div>
+            </div>
+
+            <!-- Payment Method Selection tabs -->
+            <div class="payment-tabs">
+                <button class="pay-tab-btn active" data-method="upi">
+                    <i data-lucide="smartphone"></i> UPI Scan & Pay
+                </button>
+                <button class="pay-tab-btn" data-method="card">
+                    <i data-lucide="credit-card"></i> Card Checkout
+                </button>
+            </div>
+
+            <!-- UPI Payment Screen -->
+            <div class="pay-content-panel active" id="upi-pay-panel">
+                <div class="upi-instructions">
+                    <p>1. Scan this QR code using any UPI App (GPay, PhonePe, Paytm, BHIM) to pay the exact booking amount.</p>
+                </div>
+                
+                <div class="qr-container">
+                    <!-- UPI QR Code image wrapper -->
+                    <div class="qr-code-wrapper">
+                        <img id="upi-qr-image" src="" alt="UPI Payment QR Code">
+                        <div class="qr-scanner-line"></div>
+                    </div>
+                    <div class="upi-recipient-details">
+                        <p class="upi-id-label">Recipient UPI ID:</p>
+                        <p class="upi-id-val" id="checkout-upi-id">7780523279@ybl</p>
+                        <a href="#" id="mobile-upi-intent" class="btn btn-secondary btn-small mobile-only-btn">
+                            <i data-lucide="external-link"></i> Pay via UPI App
+                        </a>
+                    </div>
+                </div>
+
+                <div class="upi-verification-box">
+                    <label for="upi-utr" class="input-label">2. Enter UTR / Transaction ID (12 digits)</label>
+                    <div class="input-wrapper">
+                        <i data-lucide="check-circle" class="field-icon"></i>
+                        <input type="text" id="upi-utr" class="form-input" placeholder="e.g. 305847120349" maxlength="12">
+                    </div>
+                    <p class="verification-note">Transaction ID is available in your UPI app receipt details. Verification is instant.</p>
+                </div>
+            </div>
+
+            <!-- Card Payment Screen -->
+            <div class="pay-content-panel" id="card-pay-panel">
+                <!-- Interactive Card Mockup -->
+                <div class="card-visual-wrapper">
+                    <div class="card-visual">
+                        <div class="card-front">
+                            <div class="card-chip"></div>
+                            <div class="card-brand">AURA</div>
+                            <div class="card-number-display" id="visual-card-number">•••• •••• •••• ••••</div>
+                            <div class="card-details-row">
+                                <div class="card-holder-display">
+                                    <span class="label">CARDHOLDER</span>
+                                    <span class="value" id="visual-card-holder">YOUR NAME</span>
+                                </div>
+                                <div class="card-expiry-display">
+                                    <span class="label">EXPIRES</span>
+                                    <span class="value" id="visual-card-expiry">MM/YY</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card Form -->
+                <div class="card-form-inputs">
+                    <div class="input-group">
+                        <label for="card-holder-input" class="input-label">Cardholder Name</label>
+                        <input type="text" id="card-holder-input" class="form-input" placeholder="John Doe">
+                    </div>
+                    <div class="input-group">
+                        <label for="card-number-input" class="input-label">Card Number</label>
+                        <input type="text" id="card-number-input" class="form-input" placeholder="4111 2222 3333 4444" maxlength="19">
+                    </div>
+                    <div class="form-row">
+                        <div class="input-group">
+                            <label for="card-expiry-input" class="input-label">Expiry Date</label>
+                            <input type="text" id="card-expiry-input" class="form-input" placeholder="MM/YY" maxlength="5">
+                        </div>
+                        <div class="input-group">
+                            <label for="card-cvv-input" class="input-label">CVV</label>
+                            <input type="password" id="card-cvv-input" class="form-input" placeholder="•••" maxlength="3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Submit Buttons -->
+            <div class="checkout-actions">
+                <button class="btn btn-primary btn-block" id="process-payment-btn">
+                    <i data-lucide="shield-check"></i> Verify & Complete Reservation
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Booking Confirmation Receipt Lightbox -->
+    <div id="receipt-modal" class="modal-overlay">
+        <div class="receipt-card">
+            <div class="receipt-success-icon">
+                <i data-lucide="check"></i>
+            </div>
+            
+            <div class="receipt-header">
+                <h2>Booking Confirmed!</h2>
+                <p>Your cinematic shoot slot has been successfully reserved.</p>
+            </div>
+
+            <div class="receipt-body" id="receipt-content">
+                <!-- Dynamically populated receipt content -->
+            </div>
+
+            <div class="receipt-footer">
+                <button class="btn btn-outline" id="download-receipt-btn">
+                    <i data-lucide="download"></i> Download Receipt
+                </button>
+                <button class="btn btn-primary" id="close-receipt-btn">
+                    Done
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Join Aura Films Modal Overlay -->
+    <div id="join-modal" class="modal-overlay">
+        <div class="receipt-card" style="max-width: 480px; padding: 2rem;">
+            <button class="close-modal" id="close-join-modal" style="position: absolute; right: 1.5rem; top: 1.5rem; background: none; border: none; font-size: 1.2rem; cursor: pointer; color: var(--text-secondary);"><i data-lucide="x"></i></button>
+            
+            <div style="text-align: center; margin-bottom: 1.5rem;">
+                <div class="receipt-success-icon" style="background-color: rgba(255, 204, 0, 0.1); color: var(--accent); width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem auto;">
+                    <i data-lucide="users" style="width: 28px; height: 28px;"></i>
+                </div>
+                <h3 style="font-family: var(--font-serif); font-size: 1.8rem; font-weight: 400; color: var(--text-primary); margin-bottom: 0.25rem;">Join <span class="accent" style="font-family: var(--font-heading); font-weight: 800; color: var(--accent); text-transform: lowercase;">aura films</span></h3>
+                <p style="color: var(--text-secondary); font-size: 0.85rem;">Submit your details and work portfolio to join our creative network.</p>
+            </div>
+
+            <form id="join-form" style="display: flex; flex-direction: column; gap: 1.25rem;">
+                <div class="input-group" style="text-align: left;">
+                    <label for="join-name" class="input-label">Full Name</label>
+                    <div class="input-wrapper">
+                        <i data-lucide="user" class="field-icon"></i>
+                        <input type="text" id="join-name" class="form-input" placeholder="Your Name" required>
+                    </div>
+                </div>
+
+                <div class="input-group" style="text-align: left;">
+                    <label for="join-phone" class="input-label">Phone Number</label>
+                    <div class="input-wrapper">
+                        <i data-lucide="phone" class="field-icon"></i>
+                        <input type="tel" id="join-phone" class="form-input" placeholder="Your WhatsApp Number" required>
+                    </div>
+                </div>
+
+                <div class="input-group" style="text-align: left;">
+                    <label for="join-email" class="input-label">Email Address</label>
+                    <div class="input-wrapper">
+                        <i data-lucide="mail" class="field-icon"></i>
+                        <input type="email" id="join-email" class="form-input" placeholder="yourname@gmail.com" required>
+                    </div>
+                </div>
+
+                <div class="input-group" style="text-align: left;">
+                    <label for="join-device" class="input-label">Your Shooting Device</label>
+                    <div class="input-wrapper">
+                        <i data-lucide="smartphone" class="field-icon"></i>
+                        <input type="text" id="join-device" class="form-input" placeholder="e.g. iPhone 15 Pro Max, Sony A7IV" required>
+                    </div>
+                </div>
+
+                <div class="input-group" style="text-align: left;">
+                    <label for="join-portfolio" class="input-label">Portfolio / Work Link</label>
+                    <div class="input-wrapper">
+                        <i data-lucide="link" class="field-icon"></i>
+                        <input type="url" id="join-portfolio" class="form-input" placeholder="Instagram, Drive folder or website URL" required>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block" style="margin-top: 0.5rem; justify-content: center;">
+                    <i data-lucide="send"></i> Submit Application
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Premium Admin Dashboard Panel Overlay -->
+    <div id="admin-modal" class="modal-overlay">
+        <div class="admin-dashboard-card">
+            <button class="close-modal" id="close-admin-modal"><i data-lucide="x"></i></button>
+
+            <!-- Admin Login view -->
+            <div class="admin-login-view" id="admin-login-view">
+                <div class="admin-login-header">
+                    <img src="assets/logo-rect-light.jpg" alt="Aura Films Logo" class="admin-logo-img" style="height: 48px; display: block; margin: 0 auto 1.25rem auto; object-fit: contain;">
+                    <h3>Admin Console</h3>
+                    <p>Enter the dashboard password to configure parameters.</p>
+                </div>
+                
+                <div class="input-group">
+                    <label for="admin-pass" class="input-label">Dashboard Password</label>
+                    <div class="input-wrapper">
+                        <i data-lucide="key" class="field-icon"></i>
+                        <input type="password" id="admin-pass" class="form-input" placeholder="Enter Password">
+                    </div>
+                </div>
+                
+                <button class="btn btn-primary btn-block" id="admin-login-btn">
+                    <i data-lucide="log-in"></i> Access Dashboard
+                </button>
+            </div>
+
+            <!-- Main Dashboard view (Hidden initially) -->
+            <div class="admin-main-view" id="admin-main-view" style="display: none;">
+                <div class="dashboard-header-bar">
+                    <h2>Admin Settings Dashboard</h2>
+                    <button class="btn btn-outline btn-small" id="admin-logout-btn">
+                        <i data-lucide="log-out"></i> Logout
+                    </button>
+                </div>
+
+                <div class="dashboard-tabs">
+                    <button class="dash-tab-btn active" data-dash="bookings">
+                        <i data-lucide="calendar"></i> Bookings Manager
+                    </button>
+                    <button class="dash-tab-btn" data-dash="portfolio">
+                        <i data-lucide="images"></i> Portfolio Manager
+                    </button>
+                    <button class="dash-tab-btn" data-dash="settings">
+                        <i data-lucide="settings"></i> Configurations
+                    </button>
+                </div>
+
+                <!-- 1. Bookings Tab -->
+                <div class="dash-panel active" id="dash-bookings-panel">
+                    <div class="panel-header-action">
+                        <h3>Customer Reservations</h3>
+                        <button class="btn btn-secondary btn-small" id="clear-bookings-btn">
+                            <i data-lucide="trash-2"></i> Clear All Bookings
+                        </button>
+                    </div>
+                    <div class="table-container">
+                        <table class="bookings-table">
+                            <thead>
+                                <tr>
+                                    <th>Client Details</th>
+                                    <th>Date & Slot</th>
+                                    <th>Package Selected</th>
+                                    <th>Payment Details</th>
+                                    <th>Status</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody id="admin-bookings-tbody">
+                                <!-- Populated from JS -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- 2. Portfolio Tab -->
+                <div class="dash-panel" id="dash-portfolio-panel">
+                    <div class="portfolio-split-grid">
+                        <!-- Add work Form -->
+                        <div class="add-work-card">
+                            <h3>Add Portfolio Work</h3>
+                            <form id="add-work-form" class="add-work-form">
+                                <div class="input-group">
+                                    <label for="work-title" class="input-label">Project Title</label>
+                                    <input type="text" id="work-title" class="form-input" placeholder="e.g. Vintage Car Cinematic" required>
+                                </div>
+                                <div class="form-row">
+                                    <div class="input-group">
+                                        <label for="work-type" class="input-label">Type</label>
+                                        <select id="work-type" class="form-input" required>
+                                            <option value="video">Cinematic Reel (Video)</option>
+                                            <option value="picture">Creative Edit (Photo/Pic)</option>
+                                        </select>
+                                    </div>
+                                    <div class="input-group">
+                                        <label for="work-aspect" class="input-label">Aspect Composition</label>
+                                        <select id="work-aspect" class="form-input" required>
+                                            <option value="horizontal">Horizontal (16:9)</option>
+                                            <option value="vertical">Vertical Reel (9:16)</option>
+                                            <option value="square">Square Grid (1:1)</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="input-group">
+                                    <label for="work-category" class="input-label">Category Label</label>
+                                    <input type="text" id="work-category" class="form-input" placeholder="e.g. Wedding, Automotive" required>
+                                </div>
+                                <div class="input-group">
+                                    <label for="work-url" class="input-label">Image URL / Thumbnail URL</label>
+                                    <input type="text" id="work-url" class="form-input" placeholder="Paste image link" required>
+                                </div>
+                                <div class="input-group" id="video-source-group">
+                                    <label for="work-video-url" class="input-label">Video Embed URL (Optional for Reels)</label>
+                                    <input type="text" id="work-video-url" class="form-input" placeholder="e.g. https://www.youtube.com/embed/... or Vimeo link">
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-block">
+                                    <i data-lucide="plus-circle"></i> Add Work to Web
+                                </button>
+                            </form>
+                        </div>
+                        
+                        <!-- List current work -->
+                        <div class="list-work-card">
+                            <h3>Current Visual Grid Items</h3>
+                            <div class="admin-items-list" id="admin-portfolio-list">
+                                <!-- Populated from JS -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Configurations Tab -->
+                <div class="dash-panel" id="dash-settings-panel">
+                    <h3>Contact & Pricing System Configuration</h3>
+                    <form id="admin-settings-form" class="settings-form">
+                        <div class="form-section-title">Payment Gateways & UTR Recipient</div>
+                        <div class="form-row">
+                            <div class="input-group">
+                                <label for="setting-upi-id" class="input-label">Recipient UPI Address (Indian Standard)</label>
+                                <input type="text" id="setting-upi-id" class="form-input" required>
+                            </div>
+                            <div class="input-group">
+                                <label for="setting-upi-name" class="input-label">Recipient Account Name</label>
+                                <input type="text" id="setting-upi-name" class="form-input" required>
+                            </div>
+                        </div>
+
+                        <div class="form-section-title">Redirections & Business Channels</div>
+                        <div class="form-row">
+                            <div class="input-group">
+                                <label for="setting-whatsapp-num" class="input-label">WhatsApp Number (e.g. 7780523279)</label>
+                                <input type="text" id="setting-whatsapp-num" class="form-input" required>
+                            </div>
+                            <div class="input-group">
+                                <label for="setting-whatsapp-msg" class="input-label">Default WhatsApp Pre-fill Msg</label>
+                                <input type="text" id="setting-whatsapp-msg" class="form-input" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="input-group">
+                                <label for="setting-instagram-url" class="input-label">Instagram Link / Profile URL</label>
+                                <input type="url" id="setting-instagram-url" class="form-input" required>
+                            </div>
+                            <div class="input-group">
+                                <label for="setting-email-address" class="input-label">Business Mail Address</label>
+                                <input type="email" id="setting-email-address" class="form-input" required>
+                            </div>
+                        </div>
+
+                        <div class="form-section-title">Service Package Rates (INR)</div>
+                        <div class="settings-packages-grid" id="settings-packages-container">
+                            <!-- Populated dynamically via JS -->
+                        </div>
+
+                        <div class="form-section-title">Security Settings</div>
+                        <div class="input-group">
+                            <label for="setting-admin-pass" class="input-label">Change Dashboard Password</label>
+                            <input type="password" id="setting-admin-pass" class="form-input" placeholder="Enter new password">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">
+                            <i data-lucide="save"></i> Save Global Configurations
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Admin Dashboard Gear Trigger -->
+    <div class="admin-gear-trigger" id="admin-gear-btn" title="Open Admin Panel">
+        <i data-lucide="settings"></i>
+    </div>
+
+
+
+    <!-- Floating WhatsApp Redirection Button -->
+    <a href="https://wa.me/917780523279" class="floating-whatsapp" target="_blank" aria-label="Chat on WhatsApp">
+        <span class="whatsapp-tooltip">Chat on WhatsApp</span>
+        <div class="whatsapp-pulse"></div>
+        <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.457L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.963C16.588 2.019 14.12 1.012 11.5 1.011c-5.442 0-9.867 4.371-9.871 9.8-.001 1.716.452 3.394 1.31 4.877L1.93 20.164l4.717-1.01zm11.215-5.638c-.3-.149-1.772-.874-2.047-.974-.275-.1-.475-.149-.675.15-.2.3-.775.974-.95 1.174-.175.2-.35.225-.65.075-1.02-.519-1.796-.929-2.52-2.176-.192-.33-.075-.508.075-.658.134-.135.3-.35.45-.525.047-.056.09-.11.132-.162.083-.105.11-.18.175-.3.064-.125.032-.24-.016-.34-.047-.1-.475-1.149-.65-1.574-.171-.413-.34-.356-.475-.363-.122-.006-.263-.008-.403-.008-.14 0-.368.052-.56.262-.193.21-.737.721-.737 1.758s.75 2.039.855 2.182c.105.143 1.477 2.254 3.578 3.161.5.215.89.343 1.196.44.502.159.96.137 1.32.083.402-.06 1.772-.724 2.022-1.424.25-.7.25-1.3.175-1.425-.075-.125-.275-.2-.575-.35z"/>
+        </svg>
+    </a>
+
+    <!-- JS Logic -->
+    <script src="script.js"></script>
+</body>
+</html>
